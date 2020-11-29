@@ -1,0 +1,123 @@
+body{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	background-color: rgb(225, 247, 231);
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 20rem;
+}
+
+
+body{
+	display: grid;
+	grid-template-areas: 
+		"fejlec"
+		"tartalom"
+		"lablec"
+	;
+	grid-template-rows: max-content 1fr max-content;
+	min-height: 100vh;
+}
+header{
+	grid-area: fejlec;
+}	
+main{
+	grid-area: tartalom;
+}	
+footer{
+	grid-area: lablec
+	line-height: 8rem;
+}
+
+.fooldal{
+	border: 1.5px solid black;
+	border-radius: 2rem;
+	padding: 0.5rem 1rem;
+	margin: 0.2rem;
+	max-width: max-content;
+	background-color: rgb(187, 245, 194);
+}
+
+.tanulmany{
+	border: 1.5px solid black;
+	border-radius: 2rem;
+	padding: 0.5rem 1rem;
+	margin: 0.2rem;
+	max-width: max-content;
+	background-color: rgb(187, 245, 194);
+}
+
+.kosar{
+	border: 1.5px solid black;
+	border-radius: 2rem;
+	padding: 0.5rem 1rem;
+	margin: 0.2rem;
+	max-width: max-content;
+	background-color: rgb(187, 245, 194);
+
+}	
+
+.fooldal:hover{
+	border: 2.5px solid black;
+}
+
+.tanulmany:hover{
+	border: 2.5px solid black;
+}
+
+.kosar:hover{
+	border: 2.5px solid black;
+}
+
+h5:hover{
+	border: 1px solid black;
+	border-radius: 2rem;
+	max-width: max-content;
+}
+
+a{
+	color:#000000;
+	text-decoration: none;
+}
+h1{
+	display: block;
+	font-size: 2em;
+}
+
+h2{
+	display: block;
+	font-size: 1em;
+	font-style: italic;
+}
+}
+
+h3{
+	display: block;
+	font-size: 1em;
+}
+
+h4{
+	display: block;
+	font-size: 1em;
+}
+
+h5{
+	display: block;
+	font-size: 1em;
+	font-style: italic;
+}
+
+h6{
+	display: block;
+	font-size: 1em;
+}
+
+
